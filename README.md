@@ -1,9 +1,7 @@
-# typedoc-custom-theme
+# typedoc-ngx-theme
 
-Example of creating a custom TypeDoc theme, see [src/index.tsx](https://github.com/Gerrit0/typedoc-custom-theme-demo/blob/main/src/index.tsx) for code & comments.
+A small [TypeDoc](https://typedoc.org/) plugin that is intended to create more useful documentation for [Angular](https://angular.io) Libraries. Using this plugin will detect the Angular `@Output` decorator in your TypeDoc reflections, and change the reflection kind from a Class property to an Event. This eliminates the need to use the JSDoc `@event` notation in your comments, and will correctly classify undocumented Angular events.
 
-## Notes:
+## TODO
 
-- Do not specify typedoc as a dependency, but as a peer dependency. Specifying it as a dependency would result in multiple TypeDoc instances being loaded, which will probably break your theme.
-- TypeDoc 0.22.9 and later will automatically load npm packages with `typedoc-theme` in their keywords. This keyword will also be used to automatically create a list of available themes at https://typedoc.org/guides/themes/.
-- You don't have to create a npm package to use a custom theme. You can also specify TypeDoc's [plugin](https://typedoc.org/guides/options/#plugin) option to load a local `.js` file.
+This plugin is very much a work in progress. The intention is to also use the Angular `@Input` decorator in TypeDoc's reflections. The Inputs will be categorized similar to Events, such that they will present as a separate category on your Component or Directive class's TypeDoc output.

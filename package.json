@@ -1,10 +1,10 @@
 {
-  "name": "typedoc-custom-theme-demo",
-  "version": "1.0.0",
+  "name": "typedoc-ngx-theme",
+  "version": "0.0.0",
   "main": "dist/index.js",
-  "repository": "git@github.com:Gerrit0/typedoc-custom-theme-demo.git",
-  "author": "Gerrit Birkeland <gerrit@gerritbirkeland.com>",
-  "license": "MIT",
+  "repository": "https://github.com/vitale232/typedoc-ngx-theme",
+  "author": "Andrew Vitale <vitale232@gmail.com>",
+  "license": "ICS",
   "keywords": [
     "typedoc-theme"
   ],
@@ -26,6 +26,7 @@
     "prettier": "^2.5.1",
     "pretty-quick": "^3.1.3",
     "rxjs": "^7.5.2",
+    "standard-version": "^9.3.2",
     "typedoc": "^0.22.9",
     "typescript": "^4.4.4"
   },
@@ -37,6 +38,7 @@
     "prepare": "husky install",
     "build": "tsc",
     "predocs": "tsc",
-    "docs": "typedoc examples/src --tsconfig ./examples/tsconfig.lib.json --plugin ./dist/index.js"
+    "docs": "typedoc examples/src --tsconfig ./examples/tsconfig.lib.json --plugin ./dist/index.js",
+    "release": "standard-version"
   }
 }
