@@ -1,6 +1,6 @@
 {
   "name": "typedoc-ngx-theme",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "dist/index.js",
   "repository": "https://github.com/vitale232/typedoc-ngx-theme",
   "author": "Andrew Vitale <vitale232@gmail.com>",
