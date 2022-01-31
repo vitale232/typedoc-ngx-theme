@@ -1,5 +1,13 @@
 # typedoc-ngx-theme
 
+## Deprecated
+
+This library has been **deprecated**, due to a misnomer. Now that the functionality has become more clear, it's apparent this **is not** a TypeDoc theme, but rather a TypeDoc **plugin**.
+
+See [typedoc-ngx-plugin]() for a maintained version of this package.
+
+## About
+
 A small [TypeDoc](https://typedoc.org/) plugin that is intended to create more useful documentation for [Angular](https://angular.io) Libraries. Using this plugin will detect the Angular `@Output` decorator in your TypeDoc reflections, and change the reflection kind from a Class property to an Event. This eliminates the need to use the JSDoc `@event` notation in your comments, and will correctly classify undocumented Angular events.
 
 ## TODO

@@ -5,9 +5,6 @@
   "repository": "https://github.com/vitale232/typedoc-ngx-theme",
   "author": "Andrew Vitale <vitale232@gmail.com>",
   "license": "ICS",
-  "keywords": [
-    "typedoc-theme"
-  ],
   "devDependencies": {
     "@angular/animations": "13.1.2",
     "@angular/cdk": "13.1.1",
