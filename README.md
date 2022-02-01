@@ -4,7 +4,7 @@
 
 This library has been **deprecated**, due to a misnomer. Now that the functionality has become more clear, it's apparent this **is not** a TypeDoc theme, but rather a TypeDoc **plugin**.
 
-See [typedoc-ngx-plugin]() for a maintained version of this package.
+See [typedoc-ngx-plugin](https://github.com/vitale232/typedoc-ngx-plugin) for a maintained version of this package.
 
 ## About
 
